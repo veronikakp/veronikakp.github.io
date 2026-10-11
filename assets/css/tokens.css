@@ -1,0 +1,56 @@
+:root {
+  --bg-page: #F7F9F8;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F0F4F3;
+  --text-primary: #15262D;
+  --text-secondary: #5D6B70;
+  --text-muted: #667478;
+  --border-default: #D8E1E1;
+  --border-strong: #B8C7C7;
+  --navy-900: #173845;
+  --navy-700: #285466;
+  --teal-700: #28746F;
+  --teal-graphic: #368781; /* Graphics only; not small text or focus. */
+  --teal-100: #E5F0EE;
+  --bluegreen-100: #E9F1F3;
+  --color-link: #28746F;
+  --focus-ring: #28746F;
+  --positive-graphic: #397A68;
+  --caution-graphic: #A67839; /* Visual encoding only. */
+  --negative-graphic: #9C5A52;
+  --neutral-graphic: #9AA8AB;
+  --chart-blue: #2B6F83;
+  --chart-teal: #3C817A;
+  --chart-slate: #58748A;
+  --chart-green: #718D79;
+  --chart-ochre: #A77D45;
+  --chart-plum: #8A6C82;
+  --chart-grey: #A7B3B6;
+  --font-heading: Inter, "Segoe UI", Arial, sans-serif;
+  --font-body: "Segoe UI", Roboto, Arial, sans-serif;
+  --site-max: 1200px;
+  --wide-max: 1320px;
+  --reading-max: 760px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 80px;
+  --space-10: 112px;
+  --space-11: 144px;
+  --section-lg: 112px;
+  --section-content: 80px;
+  --anchor-offset: 96px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --gutter: 20px;
+  --grid-gap: 16px;
+  --header-height: 64px;
+  --touch-target: 44px;
+  --transition-fast: 160ms;
+}
