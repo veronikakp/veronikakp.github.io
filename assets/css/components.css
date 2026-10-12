@@ -446,3 +446,16 @@
   .info-page .info-domain { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: var(--space-7); }
   .info-page .info-evidence { padding-top: 0; padding-left: var(--space-5); border-top: 0; border-left: 1px solid var(--border-default); }
 }
+
+
+/* NovaData: selected original executive Power BI report views. */
+.case-study[data-case="novadata"] .nv-report-section { margin-top: var(--space-7); }
+.case-study[data-case="novadata"] .nv-report-language-note { font-size: 15px; color: var(--text-secondary); }
+.case-study[data-case="novadata"] .nv-report-gallery { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-6); margin-top: var(--space-6); }
+.case-study[data-case="novadata"] .nv-report-view { margin: 0; padding: var(--space-4); }
+.case-study[data-case="novadata"] .nv-report-view img { display: block; width: 100%; height: auto; border: 1px solid var(--border-default); border-radius: var(--radius-sm); background: var(--bg-surface); }
+.case-study[data-case="novadata"] .nv-report-view figcaption { padding-top: var(--space-4); font-size: 15px; line-height: 1.6; }
+.case-study[data-case="novadata"] .nv-report-view figcaption p { margin-bottom: var(--space-3); }
+@media (min-width: 900px) {
+  .case-study[data-case="novadata"] .nv-report-view { padding: var(--space-5); }
+}
